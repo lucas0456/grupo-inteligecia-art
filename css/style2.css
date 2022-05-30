@@ -1,0 +1,47 @@
+body{
+    background-image: url(../img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+main{
+    width: 1024px;
+    margin: 20px auto;
+}
+header{
+    background-color: rgb(15, 158, 158);
+    height: 3.5em;
+    width: 99.5%;
+    border-radius: 13px;
+    margin-left: -5px;
+}
+.img{
+    float: left;
+    margin: 0.5em 0 0 100px;
+   padding-right: 360px;
+}
+
+nav ul li{
+    float: right;
+    list-style: none;
+    text-align: center;
+    padding: 1.2em;
+}
+
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    display: block;
+}
+
+nav ul li a:hover{
+    color: #a6bafc;
+}
+
+nav a{
+    font-size: 0.8em;
+    letter-spacing: 5px;
+    transition: color 0.5s ease;
+}
