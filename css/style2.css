@@ -5,20 +5,23 @@ body{
     color: white;
 }
 main{
-    width: 1024px;
+    width: 1000px;
+    height: 50%;
     margin: 20px auto;
+    background-color: rgba(95, 92, 92, 0.621);
 }
+
 header{
-    background-color: rgb(15, 158, 158);
+    background-color: #105668;
     height: 3.5em;
-    width: 99.5%;
-    border-radius: 13px;
-    margin-left: -5px;
+    width: 100%;
 }
+
 .img{
     float: left;
     margin: 0.5em 0 0 100px;
-   padding-right: 360px;
+    padding-right: 360px;
+    
 }
 
 nav ul li{
@@ -44,4 +47,105 @@ nav a{
     font-size: 0.8em;
     letter-spacing: 5px;
     transition: color 0.5s ease;
+}
+
+.destaque{
+    text-align: center;
+    padding: 50px 100px;
+}
+
+.texto-destaque h1{
+    font-size: 1.2em;
+    color: white;
+}
+
+.texto-destaque p{
+    color: white;
+    font-size: 1em;
+    line-height: 2;
+}
+
+.galeria{
+    color: #cfc5c5;
+    padding: 50px 100px;
+    overflow: auto;
+    text-align: center;
+    
+}
+.galeria-imagem{
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    padding-bottom: 5em;
+}
+
+.galeria-titulo{
+    color: #1c4923;
+    letter-spacing: 4px;
+    font-size: 0.55cm;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.galeria-conteudo{
+    color: #1f2022;
+    font-size: 0.99em;
+}
+
+.sobre{
+    background-color: #105668;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding: 100px;
+    color: white;
+}
+
+.sobre h2{
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.sobre p{
+    line-height: 1.5;
+    width: 70%;
+}
+
+.contato, .cadastro{
+    margin: 50px 0;
+}
+
+.contato address{
+    color:#1f2022;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.cadastro{
+    color:#1f2022;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+}
+
+.mapa iframe{
+    width: 100%;
+    height: 450px;
+}
+
+.rodape{
+    background-color: #105668;
+    padding: 25px;
+    color: white;
+    text-align: center;
+    font-size: 0.9em;
+    letter-spacing: 5px;
+    margin-top: 30px;
+    
 }
