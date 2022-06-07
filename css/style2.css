@@ -1,5 +1,5 @@
 body{
-    background-image: url(../img/fundo.jpg);
+    background-image: url(../img/img3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -8,7 +8,7 @@ main{
     width: 1000px;
     height: 50%;
     margin: 20px auto;
-    background-color: rgba(95, 92, 92, 0.621);
+    background-color: rgba(95, 92, 92, 0.512);
 }
 
 header{
@@ -40,7 +40,11 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color: #a6bafc;
+    text-decoration: underline;
+}
+#as{
+    text-align: center;
+    font-size: 1.5em;
 }
 
 nav a{
@@ -51,7 +55,8 @@ nav a{
 
 .destaque{
     text-align: center;
-    padding: 50px 100px;
+    padding: 50px 50px;
+
 }
 
 .texto-destaque h1{
