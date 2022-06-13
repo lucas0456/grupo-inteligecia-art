@@ -1,5 +1,5 @@
 body{
-    background-image: url(../img/img3.jpg);
+    background-image: url(../img/s.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -145,7 +145,7 @@ nav a{
 }
 
 .rodape{
-    background-color: #105668;
+    background-color: #0c4a59;
     padding: 25px;
     color: white;
     text-align: center;

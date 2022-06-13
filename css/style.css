@@ -1,5 +1,5 @@
 body{
-    background-image: url(../img/img3.jpg);
+    background-image: url(../img/s.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -87,7 +87,7 @@ nav a{
     font-size: 0.99em;
 }
 .sobre{
-    background-color: #178eac68;
+    background-color: #0b556768;
     background-repeat: no-repeat;
     background-position: right bottom;
     padding: 100px;
@@ -127,7 +127,7 @@ nav a{
     height: 450px;
 }
 .rodape{
-    background-color: #178eac6d;
+    background-color: #0e50606d;
     padding: 25px;
     color: white;
     text-align: center;
