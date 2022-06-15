@@ -1,5 +1,5 @@
 body{
- background-image: url(../img/que.jpg);
+    background-image: url(../img/INTELIGENCIA-ARTIFICIAL.jpg);
   /*  background-repeat: no-repeat; */
     background-size: contain;
     color: white;
@@ -36,7 +36,8 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    text-decoration: underline;
+    color: rgb(8, 244, 213);
+
 }
 #as{
     text-align: center;
