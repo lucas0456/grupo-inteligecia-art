@@ -1,0 +1,163 @@
+body{
+    background-image: url(../img/INTELIGENCIA-ARTIFICIAL.jpg);
+    background-size: contain;
+    color: white;
+
+}
+main{
+    background-color: rgba(95, 92, 92, 0.512);
+    margin: -15px;
+}
+header{
+    background-color: #105668;
+    height: 3.6em;
+    width: 100%;
+    font-size: 1.2em;
+}
+.img{
+    float: left;
+    margin: 0.5em 0 0 100px;
+}
+
+nav ul li{
+    float: right;
+    list-style: none;
+    text-align: center;
+    padding: 1.2em;
+}
+
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-weight: bold;
+    display: block;
+}
+
+nav ul li a:hover{
+    color: rgb(0, 247, 255);
+
+}
+#as{
+    text-align: center;
+    font-size: 1.5em;
+}
+#sa{
+    text-align: center;
+    font-size: 1.1em;
+}
+nav a{
+    font-size: 0.8em;
+    letter-spacing: 5px;
+    transition: color 0.5s ease;
+}
+.texto-destaque img{
+margin: auto;
+}
+.destaque{
+    text-align: center;
+    padding: 50px 50px;
+}
+
+.texto-destaque h1{
+    font-size: 1.5em;
+    color: whitesmoke;
+}
+.texto-destaque p{
+    color: whitesmoke;
+    font-size: 1.2em;
+    line-height: 2;
+}
+
+.galeria{
+    color: #cfc5c5;
+    padding: 50px 100px;
+    overflow: auto;
+    text-align: center;
+    
+}
+.galeria-imagem{
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    padding-bottom: 5em;
+}
+
+.galeria-titulo{
+    color: #1c4923;
+    letter-spacing: 4px;
+    font-size: 0.55cm;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.galeria-conteudo{
+    color: #1f2022;
+    font-size: 0.99em;
+}
+
+.sobre{
+    background-color: #105668d9;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding: 100px;
+    color: whitesmoke;
+}
+.sobre h2{
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.sobre p{
+    line-height: 1.5;
+    width: 70%;
+}
+
+.contato, .cadastro{
+    margin: 50px 0;
+}
+
+.contato address{
+    color:#1f2022;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.cadastro{
+    color:#1f2022;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+}
+
+.mapa iframe{
+    width: 100%;
+    height: 450px;
+}
+
+.rodape{
+    background-color: #0c4a59d6;
+    padding: 25px;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 0.8em;
+    letter-spacing: 5px;
+    margin-top: 30px;
+}
+
+#foto{
+    width: 100%;
+    text-align: center;
+}
+
+#foto img{
+    width: 100%;
+    margin: auto;
+}
