@@ -60,13 +60,13 @@ margin: auto;
 .texto-destaque h1{
     font-size: 1.5em;
     color: rgb(255, 255, 255);
-    text-shadow: -3px 1px 1px #000000;
+    text-shadow: -2px 1px 1px #000000;
 }
 .texto-destaque p{
     color: rgb(255, 255, 255);
     font-size: 1.2em;
     line-height: 2;
-    text-shadow: -3px 1px 1px #000000;
+    text-shadow: -2px 1px 1px #000000;
 }
 
 .galeria{
