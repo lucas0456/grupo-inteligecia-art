@@ -18,31 +18,32 @@ header{
     float: left;
     margin: 0.5em 0 0 100px;
 }
-
 nav ul li{
     float: right;
     list-style: none;
     text-align: center;
     padding: 1.2em;
 }
-
 nav ul li a{
     text-decoration: none;
     text-transform: uppercase;
-    color: white;
+    color: whitesmoke;
     font-weight: bold;
     display: block;
+    text-shadow: -2px 2px 2px #000000;
 }
-
 nav ul li a:hover{
-    color: rgb(8, 244, 213);
+    color: rgb(0, 247, 255);
 
 }
 #as{
     text-align: center;
     font-size: 1.5em;
 }
-
+#sa{
+    text-align: center;
+    font-size: 1.1em;
+}
 nav a{
     font-size: 0.8em;
     letter-spacing: 5px;
@@ -58,13 +59,14 @@ margin: auto;
 
 .texto-destaque h1{
     font-size: 1.5em;
-    color: white;
+    color: rgb(255, 255, 255);
+    text-shadow: -3px 1px 1px #000000;
 }
-
 .texto-destaque p{
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 1.2em;
     line-height: 2;
+    text-shadow: -3px 1px 1px #000000;
 }
 
 .galeria{
@@ -99,17 +101,24 @@ margin: auto;
     background-repeat: no-repeat;
     background-position: right bottom;
     padding: 100px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .sobre h2{
     font-size: 2em;
     text-transform: uppercase;
     font-weight: normal;
+    text-shadow: 
+    -3px 2px 2px #ffffff
+    ;
 }
 
 .sobre p{
     line-height: 1.5;
     width: 70%;
+    font-size: 1.2em;
+    text-shadow: 
+    -2px 2px 2px #ffffff
+    ;
 }
 
 .contato, .cadastro{
@@ -143,9 +152,9 @@ margin: auto;
 .rodape{
     background-color: #0c4a59d6;
     padding: 25px;
-    color: white;
+    color: whitesmoke;
     text-align: center;
-    font-size: 0.9em;
+    font-size: 0.8em;
     letter-spacing: 5px;
     margin-top: 30px;
 }
