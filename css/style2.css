@@ -101,24 +101,22 @@ margin: auto;
     background-repeat: no-repeat;
     background-position: right bottom;
     padding: 100px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 .sobre h2{
     font-size: 2em;
     text-transform: uppercase;
     font-weight: normal;
     text-shadow: 
-    -3px 2px 2px #ffffff
+    -3px 3px 3px #000000
     ;
 }
 
 .sobre p{
+    color: #cfc5c5;
     line-height: 1.5;
     width: 70%;
     font-size: 1.2em;
-    text-shadow: 
-    -2px 2px 2px #ffffff
-    ;
 }
 
 .contato, .cadastro{

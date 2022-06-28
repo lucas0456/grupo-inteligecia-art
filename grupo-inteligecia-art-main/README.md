@@ -1,2 +1,0 @@
-# grupo-inteligecia-art.
-ssdsdsadsa
