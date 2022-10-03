@@ -1,14 +1,14 @@
 body{
     background-image: url(../img/INTELIGENCIA-ARTIFICIAL.jpg);
-    background-size: contain;
+    background-size: 100%;
     color: white;
-
 }
 main{
     background-color: rgba(95, 92, 92, 0.512);
+    
 }
 header{
-    background-color: #105668;
+    background-color:  #390ca317;
     height: 4.5em;
     width: 100%;
     font-size: 1.2em;
@@ -35,7 +35,8 @@ nav ul li a{
     text-shadow: -2px 2px 2px #000000;
 }
 nav ul li a:hover{
-    color: rgb(0, 247, 255);
+    color: rgba(111, 0, 255, 0.76);
+transition: ;
 
 }
 #as{
@@ -110,7 +111,7 @@ margin: auto;
 }
 
 .sobre{
-    background-color: #105668d9;
+    background-color:  #390ca371;
     background-repeat: no-repeat;
     background-position: right bottom;
     padding: 100px;
@@ -148,7 +149,7 @@ margin: auto;
     font-weight: bold;
 
 }
-
+    
 .cadastro{
     color:#1f2022;
     text-transform: uppercase;
@@ -164,7 +165,7 @@ margin: auto;
 }
 
 .rodape{
-    background-color: #0c4a59d6;
+    background-color: #390ca371;
     padding: 25px;
     color: whitesmoke;
     text-align: center;
