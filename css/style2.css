@@ -9,14 +9,14 @@ main{
 }
 header{
     background-color:  #390ca317;
-    height: 4.5em;
+    height: 5em;
     width: 100%;
     font-size: 1.2em;
     padding: 1px;
 }
 .img{
     float: left;
-    margin: 0.9em 0 0 70px;
+    margin: 1.5em 0 0 70px;
 }
 nav ul li{
     float: right;
@@ -24,6 +24,14 @@ nav ul li{
     text-align: center;
     padding: 1.2em;
     margin-top: -10px;
+}
+#foto{
+    width: 100%;
+    text-align: center;
+}
+#foto img{
+    width: 100%;
+    margin: auto;
 }
 nav ul li a{
     text-decoration: none;
@@ -36,8 +44,6 @@ nav ul li a{
 }
 nav ul li a:hover{
     color: rgba(111, 0, 255, 0.76);
-transition: ;
-
 }
 #as{
     text-align: center;
@@ -64,7 +70,7 @@ nav a{
     text-shadow: -2px 1px 1px #000000;
 }
 .texto-destaque img{
-margin: auto;
+    width: 100%;
 }
 .destaque{
     text-align: center;
@@ -111,7 +117,7 @@ margin: auto;
 }
 
 .sobre{
-    background-color:  #390ca371;
+    background-color:  #390ca311;
     background-repeat: no-repeat;
     background-position: right bottom;
     padding: 100px;
@@ -147,7 +153,6 @@ margin: auto;
     font-style: normal;
     text-align: center;
     font-weight: bold;
-
 }
     
 .cadastro{
@@ -163,23 +168,12 @@ margin: auto;
     width: 100%;
     height: 450px;
 }
-
 .rodape{
-    background-color: #390ca371;
+    background-color: #390ca311;
     padding: 25px;
     color: whitesmoke;
     text-align: center;
     font-size: 0.8em;
     letter-spacing: 5px;
     margin-top: 30px;
-}
-
-#foto{
-    width: 100%;
-    text-align: center;
-}
-
-#foto img{
-    width: 100%;
-    margin: auto;
 }
